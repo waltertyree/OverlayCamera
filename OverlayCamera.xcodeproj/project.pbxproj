@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4D702381CAEE8230007CE37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D702371CAEE8230007CE37 /* AppDelegate.swift */; };
+		D4D7023A1CAEE8230007CE37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D702391CAEE8230007CE37 /* ViewController.swift */; };
+		D4D7023D1CAEE8230007CE37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4D7023B1CAEE8230007CE37 /* Main.storyboard */; };
+		D4D7023F1CAEE8230007CE37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4D7023E1CAEE8230007CE37 /* Assets.xcassets */; };
+		D4D702421CAEE8230007CE37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4D702401CAEE8230007CE37 /* LaunchScreen.storyboard */; };
+		D4D7024D1CAEE8230007CE37 /* OverlayCameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D7024C1CAEE8230007CE37 /* OverlayCameraTests.swift */; };
+		D4D702581CAEE8230007CE37 /* OverlayCameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D702571CAEE8230007CE37 /* OverlayCameraUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4D702491CAEE8230007CE37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4D7022C1CAEE8220007CE37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4D702331CAEE8220007CE37;
+			remoteInfo = OverlayCamera;
+		};
+		D4D702541CAEE8230007CE37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4D7022C1CAEE8220007CE37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4D702331CAEE8220007CE37;
+			remoteInfo = OverlayCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4D702341CAEE8220007CE37 /* OverlayCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OverlayCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D702371CAEE8230007CE37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4D702391CAEE8230007CE37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D4D7023C1CAEE8230007CE37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D4D7023E1CAEE8230007CE37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4D702411CAEE8230007CE37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4D702431CAEE8230007CE37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4D702481CAEE8230007CE37 /* OverlayCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OverlayCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D7024C1CAEE8230007CE37 /* OverlayCameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayCameraTests.swift; sourceTree = "<group>"; };
+		D4D7024E1CAEE8230007CE37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4D702531CAEE8230007CE37 /* OverlayCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OverlayCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D702571CAEE8230007CE37 /* OverlayCameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayCameraUITests.swift; sourceTree = "<group>"; };
+		D4D702591CAEE8230007CE37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4D702311CAEE8220007CE37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D702451CAEE8230007CE37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D702501CAEE8230007CE37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4D7022B1CAEE8220007CE37 = {
+			isa = PBXGroup;
+			children = (
+				D4D702361CAEE8230007CE37 /* OverlayCamera */,
+				D4D7024B1CAEE8230007CE37 /* OverlayCameraTests */,
+				D4D702561CAEE8230007CE37 /* OverlayCameraUITests */,
+				D4D702351CAEE8220007CE37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4D702351CAEE8220007CE37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4D702341CAEE8220007CE37 /* OverlayCamera.app */,
+				D4D702481CAEE8230007CE37 /* OverlayCameraTests.xctest */,
+				D4D702531CAEE8230007CE37 /* OverlayCameraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4D702361CAEE8230007CE37 /* OverlayCamera */ = {
+			isa = PBXGroup;
+			children = (
+				D4D702371CAEE8230007CE37 /* AppDelegate.swift */,
+				D4D702391CAEE8230007CE37 /* ViewController.swift */,
+				D4D7023B1CAEE8230007CE37 /* Main.storyboard */,
+				D4D7023E1CAEE8230007CE37 /* Assets.xcassets */,
+				D4D702401CAEE8230007CE37 /* LaunchScreen.storyboard */,
+				D4D702431CAEE8230007CE37 /* Info.plist */,
+			);
+			path = OverlayCamera;
+			sourceTree = "<group>";
+		};
+		D4D7024B1CAEE8230007CE37 /* OverlayCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4D7024C1CAEE8230007CE37 /* OverlayCameraTests.swift */,
+				D4D7024E1CAEE8230007CE37 /* Info.plist */,
+			);
+			path = OverlayCameraTests;
+			sourceTree = "<group>";
+		};
+		D4D702561CAEE8230007CE37 /* OverlayCameraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4D702571CAEE8230007CE37 /* OverlayCameraUITests.swift */,
+				D4D702591CAEE8230007CE37 /* Info.plist */,
+			);
+			path = OverlayCameraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4D702331CAEE8220007CE37 /* OverlayCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4D7025C1CAEE8230007CE37 /* Build configuration list for PBXNativeTarget "OverlayCamera" */;
+			buildPhases = (
+				D4D702301CAEE8220007CE37 /* Sources */,
+				D4D702311CAEE8220007CE37 /* Frameworks */,
+				D4D702321CAEE8220007CE37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OverlayCamera;
+			productName = OverlayCamera;
+			productReference = D4D702341CAEE8220007CE37 /* OverlayCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4D702471CAEE8230007CE37 /* OverlayCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4D7025F1CAEE8230007CE37 /* Build configuration list for PBXNativeTarget "OverlayCameraTests" */;
+			buildPhases = (
+				D4D702441CAEE8230007CE37 /* Sources */,
+				D4D702451CAEE8230007CE37 /* Frameworks */,
+				D4D702461CAEE8230007CE37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4D7024A1CAEE8230007CE37 /* PBXTargetDependency */,
+			);
+			name = OverlayCameraTests;
+			productName = OverlayCameraTests;
+			productReference = D4D702481CAEE8230007CE37 /* OverlayCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4D702521CAEE8230007CE37 /* OverlayCameraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4D702621CAEE8230007CE37 /* Build configuration list for PBXNativeTarget "OverlayCameraUITests" */;
+			buildPhases = (
+				D4D7024F1CAEE8230007CE37 /* Sources */,
+				D4D702501CAEE8230007CE37 /* Frameworks */,
+				D4D702511CAEE8230007CE37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4D702551CAEE8230007CE37 /* PBXTargetDependency */,
+			);
+			name = OverlayCameraUITests;
+			productName = OverlayCameraUITests;
+			productReference = D4D702531CAEE8230007CE37 /* OverlayCameraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4D7022C1CAEE8220007CE37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Tyree Apps, LLC";
+				TargetAttributes = {
+					D4D702331CAEE8220007CE37 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					D4D702471CAEE8230007CE37 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D4D702331CAEE8220007CE37;
+					};
+					D4D702521CAEE8230007CE37 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D4D702331CAEE8220007CE37;
+					};
+				};
+			};
+			buildConfigurationList = D4D7022F1CAEE8220007CE37 /* Build configuration list for PBXProject "OverlayCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4D7022B1CAEE8220007CE37;
+			productRefGroup = D4D702351CAEE8220007CE37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4D702331CAEE8220007CE37 /* OverlayCamera */,
+				D4D702471CAEE8230007CE37 /* OverlayCameraTests */,
+				D4D702521CAEE8230007CE37 /* OverlayCameraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4D702321CAEE8220007CE37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D702421CAEE8230007CE37 /* LaunchScreen.storyboard in Resources */,
+				D4D7023F1CAEE8230007CE37 /* Assets.xcassets in Resources */,
+				D4D7023D1CAEE8230007CE37 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D702461CAEE8230007CE37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D702511CAEE8230007CE37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4D702301CAEE8220007CE37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D7023A1CAEE8230007CE37 /* ViewController.swift in Sources */,
+				D4D702381CAEE8230007CE37 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D702441CAEE8230007CE37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D7024D1CAEE8230007CE37 /* OverlayCameraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D7024F1CAEE8230007CE37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D702581CAEE8230007CE37 /* OverlayCameraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4D7024A1CAEE8230007CE37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4D702331CAEE8220007CE37 /* OverlayCamera */;
+			targetProxy = D4D702491CAEE8230007CE37 /* PBXContainerItemProxy */;
+		};
+		D4D702551CAEE8230007CE37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4D702331CAEE8220007CE37 /* OverlayCamera */;
+			targetProxy = D4D702541CAEE8230007CE37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D4D7023B1CAEE8230007CE37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4D7023C1CAEE8230007CE37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D4D702401CAEE8230007CE37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4D702411CAEE8230007CE37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4D7025A1CAEE8230007CE37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4D7025B1CAEE8230007CE37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4D7025D1CAEE8230007CE37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OverlayCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyreeapps.OverlayCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D4D7025E1CAEE8230007CE37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OverlayCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyreeapps.OverlayCamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D4D702601CAEE8230007CE37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OverlayCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyreeapps.OverlayCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OverlayCamera.app/OverlayCamera";
+			};
+			name = Debug;
+		};
+		D4D702611CAEE8230007CE37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OverlayCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyreeapps.OverlayCameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OverlayCamera.app/OverlayCamera";
+			};
+			name = Release;
+		};
+		D4D702631CAEE8230007CE37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OverlayCameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyreeapps.OverlayCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OverlayCamera;
+			};
+			name = Debug;
+		};
+		D4D702641CAEE8230007CE37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OverlayCameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tyreeapps.OverlayCameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OverlayCamera;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4D7022F1CAEE8220007CE37 /* Build configuration list for PBXProject "OverlayCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4D7025A1CAEE8230007CE37 /* Debug */,
+				D4D7025B1CAEE8230007CE37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4D7025C1CAEE8230007CE37 /* Build configuration list for PBXNativeTarget "OverlayCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4D7025D1CAEE8230007CE37 /* Debug */,
+				D4D7025E1CAEE8230007CE37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D4D7025F1CAEE8230007CE37 /* Build configuration list for PBXNativeTarget "OverlayCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4D702601CAEE8230007CE37 /* Debug */,
+				D4D702611CAEE8230007CE37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D4D702621CAEE8230007CE37 /* Build configuration list for PBXNativeTarget "OverlayCameraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4D702631CAEE8230007CE37 /* Debug */,
+				D4D702641CAEE8230007CE37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4D7022C1CAEE8220007CE37 /* Project object */;
+}
